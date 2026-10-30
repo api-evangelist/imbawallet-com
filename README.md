@@ -64,5 +64,144 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-imbawallet-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://imbawallet.com/
+IMBA Wallet is a fintech service offering virtual Visa and MasterCard cards backed by USDT cryptocurrency, supporting payments via Google Pay, Apple Pay, and the Russian SBP system. Users can register via Telegram, a web browser, or Android app, and manage cards, top‑up with USDT (TRC‑20 and TON) or rubles, access travel eSIM for over 150 countries, and purchase digital gift cards using USDT balances. The platform also provides a prepaid Agent API for agents to deposit USDT and access a catalog, though conversion and withdrawals are currently closed. Documentation is available in Russian, with OpenAPI specifications and well‑known configuration files.
+
+**Areas:** FinTech · Payments · Cryptocurrency · VirtualCards · Wallet
+
+## imbawallet-com on APIs.io
+
+Everything profiled for imbawallet-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/imbawallet-com/](https://apis.io/providers/imbawallet-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [imbawallet-com Auth API](https://apis.io/apis/imbawallet-com/imbawallet-com-auth-api/) — Register, assertion JWT, webhook, HMAC
+- [imbawallet-com Balance API](https://apis.io/apis/imbawallet-com/imbawallet-com-balance-api/) — Partner settlement balance
+- [imbawallet-com Cards API](https://apis.io/apis/imbawallet-com/imbawallet-com-cards-api/) — Card catalog, issue, list, secrets, topup, freeze
+- [imbawallet-com Catalog API](https://apis.io/apis/imbawallet-com/imbawallet-com-catalog-api/) — Cards, eSIM, gifts, and catalog reads
+- [imbawallet-com Deposit API](https://apis.io/apis/imbawallet-com/imbawallet-com-deposit-api/) — USDT TRC-20 deposit address
+- [imbawallet-com Withdrawals API](https://apis.io/apis/imbawallet-com/imbawallet-com-withdrawals-api/) — USDT withdrawals from partner balance
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Imbawallet Com Agentic Access](https://apis.io/agentic-access/imbawallet-com/imbawallet-com-agentic-access/)
+
+#### JSON Schema (12)
+
+The data models the API reads and writes.
+
+- [BalanceResponse](https://apis.io/schemas/imbawallet-com/imbawallet-com-balance-response/)
+- [CardBalanceResponse](https://apis.io/schemas/imbawallet-com/imbawallet-com-card-balance-response/)
+- [CardGetResponse](https://apis.io/schemas/imbawallet-com/imbawallet-com-card-get-response/)
+- [CardIssueRequest](https://apis.io/schemas/imbawallet-com/imbawallet-com-card-issue-request/)
+- [CardIssueResponse](https://apis.io/schemas/imbawallet-com/imbawallet-com-card-issue-response/)
+- [CardListResponse](https://apis.io/schemas/imbawallet-com/imbawallet-com-card-list-response/)
+- [CreateCardRequest](https://apis.io/schemas/imbawallet-com/imbawallet-com-create-card-request/)
+- [DepositAddressResponse](https://apis.io/schemas/imbawallet-com/imbawallet-com-deposit-address-response/)
+- [RegisterRequest](https://apis.io/schemas/imbawallet-com/imbawallet-com-register-request/)
+- [RegisterResponse](https://apis.io/schemas/imbawallet-com/imbawallet-com-register-response/)
+- [TokenResponse](https://apis.io/schemas/imbawallet-com/imbawallet-com-token-response/)
+- [TopupCardRequest](https://apis.io/schemas/imbawallet-com/imbawallet-com-topup-card-request/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [imbawallet-com API Rules](https://apis.io/rules/imbawallet-com/imbawallet-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Imbawallet Com Authentication](https://apis.io/security/imbawallet-com/imbawallet-com-authentication/)
+- [Imbawallet Com Domain Security](https://apis.io/security/imbawallet-com/imbawallet-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Imbawallet Com Scopes](https://apis.io/scopes/imbawallet-com/imbawallet-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Imbawallet Com Plans Pricing](https://apis.io/plans/imbawallet-com/imbawallet-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Imbawallet Com Rate Limits](https://apis.io/rate-limits/imbawallet-com/imbawallet-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://imbawallet.com/)
+- [Documentation](https://imbawallet.com/agent_api_about_rus.html)
+- [Getting started](https://imbawallet.com/landing.html)
+- [API reference](https://imbawallet.com/openapi/agent.json)
+- [Support](https://imbawallet.com/faq_rus.html)
+- [Terms of service](https://imbawallet.com/terms)
+- [Privacy policy](https://imbawallet.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 46.9** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 48.6 |
+| Contract governance | 62.7 |
+| Operational transparency | 28.4 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 39.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 31.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/imbawallet-com/](https://apis.io/providers/imbawallet-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for imbawallet-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/imbawallet-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
